@@ -1,0 +1,11 @@
+body {
+  position: relative;
+  width: 1440px;
+  height: 1793px;
+  background: #ffffff;
+}
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
