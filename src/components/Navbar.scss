@@ -1,0 +1,19 @@
+.app__navbar {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+}
+.app__navbar-logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  img {
+    position: absolute;
+    width: 263.31px;
+    height: 55.31px;
+    left: 98.69px;
+    top: 44.69px;
+  }
+}
