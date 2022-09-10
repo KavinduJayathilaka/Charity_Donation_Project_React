@@ -1,6 +1,7 @@
 import React from "react";
 import { images } from "../../constants";
 import "./Header.scss";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -21,7 +22,9 @@ const Header = () => {
         </p>
       </div>
       <div className="app__header-button">
-        <button type="text">Get Started</button>
+        <Link to="./">
+          <button>Get Started</button>
+        </Link>
       </div>
     </div>
   );
